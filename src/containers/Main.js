@@ -8,7 +8,7 @@ import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
-import Footer from "../components/footer/Footer";
+// import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
@@ -22,7 +22,7 @@ import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
+  // const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   // const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
   const [isDark, setIsDark] = useLocalStorage("isDark", true);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =

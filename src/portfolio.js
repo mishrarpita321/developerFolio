@@ -1,4 +1,3 @@
-
 /* Change this file to get your personal Portfolio */
 // To change portfolio colors globally go to the  _globalColor.scss file
 import emoji from "react-easy-emoji";
@@ -17,10 +16,12 @@ const greeting = {
   username: "Arpita Mishra",
   title: "Hello all, I'm Arpita",
   subTitle: [
-    emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."),
+    emoji(
+      "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    ),
     "I am a Master's student👩🏼 at SRH University of Applied Sciences, majoring in Usability Engineering and UX Design, currently in my final semester writing thesis on large language models in VUIs.",
-    " I am originally from India🏠, currently living in Heidelberg, Germany.",
-  ],  
+    " I am originally from India🏠, currently living in Heidelberg, Germany."
+  ],
   resumeLink:
     "https://drive.google.com/file/d/1x0XxnTSCiNrmX_LAiwP6Qe6UYY8rfmaj/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -46,11 +47,15 @@ const skillsSection = {
     emoji(
       "⚡ Develop interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Converting designs into reusable components in Frameworks like Reactjs and Nextjs"),
+    emoji(
+      "⚡ Converting designs into reusable components in Frameworks like Reactjs and Nextjs"
+    ),
     emoji(
       "⚡ Bug fixing , debugging, maintaining and optimizing the code following DRY principle"
     ),
-    emoji("⚡ Integration of REST APIs in the frontend, exposing the data in UI"),
+    emoji(
+      "⚡ Integration of REST APIs in the frontend, exposing the data in UI"
+    )
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -90,7 +95,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -119,7 +124,12 @@ const educationInfo = {
       subHeader: "Bachelor of Technology",
       duration: "September 2015 - April 2019",
       desc: "Ranked top 3 in the programme. Took courses about Software Engineering, Web Development",
-      descBullets: ["Organizational behavior", "Mathematics", "C/C++", "Databases systems"]
+      descBullets: [
+        "Organizational behavior",
+        "Mathematics",
+        "C/C++",
+        "Databases systems"
+      ]
     }
   ]
 };
@@ -188,7 +198,7 @@ const workExperiences = {
       descBullets: [
         "Supported in product configuration for application upgrade from Siebel IPV 8.1 to 19.8.",
         "Did CSS to SCSS conversion for the application to achieve single CSS file to enhance performance.",
-        "Development of custom JavaScript and Business Services for the application.",
+        "Development of custom JavaScript and Business Services for the application."
       ]
     }
   ]
@@ -245,7 +255,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1kW-T-FHJj3Zb1D8fJWKA2g0P-S-qUAKH/view?usp=sharing"
-        },
+        }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -275,7 +285,10 @@ const achievementSection = {
       image: require("./assets/images/bravo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1wVgDnjhbhua2ZaIlLMHJHqVIzdsLUREE/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1wVgDnjhbhua2ZaIlLMHJHqVIzdsLUREE/view?usp=sharing"
+        }
       ]
     }
   ],
