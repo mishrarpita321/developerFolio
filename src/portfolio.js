@@ -248,6 +248,19 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
   achievementsCards: [
     {
+      title: "Databricks Generative AI fundamentals",
+      // subtitle:
+      //   "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/ArpitaMishra_GenerativeAI_Badge.png"),
+      imageAlt: "Databricks Logo",
+      footerLink: [
+        {
+          name: "Cetification",
+          url: "https://drive.google.com/file/d/1JOoQTp1ZeZItDYeBbSL1VPLpDmR0BmzO/view?usp=sharing"
+        }
+      ]
+    },
+    {
       title: "Oracle Certified Foundations Associate",
       image: require("./assets/images/01a_Database_Foundations_Associate.png"),
       imageAlt: "Google Code-In Logo",
@@ -281,7 +294,7 @@ const achievementSection = {
     },
     {
       title: "Tech Mahindra Bravo Award",
-      subtitle: "Awarded for the contribution in the project",
+      // subtitle: "Awarded for the contribution in the project",
       image: require("./assets/images/bravo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
